@@ -1,0 +1,18 @@
+Assignment 1:
+	--
+
+Assignment 2:
+	As the array name is the pointer to it's first element and the array itself is a continuos sequience of memory blocks
+	using the pointer arithmetic it is possible to access and modify the array's elements
+	Also an interesting observation is that priority of "dereferencing" operation is higher then multiplication
+Assignment 3:
+	It is possible to manipulate the variable value using the adress stored in the pointer
+	that's why passing the parameters by reference allows to change the values outside the function scope
+
+Assignment 4:
+	--
+
+Assignment 5:
+	--
+
+
