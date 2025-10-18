@@ -1,0 +1,35 @@
+Program output:
+
+	Size of int variale: 4
+	Adress of int variable: 0x7ffdf4e9187c
+
+	Size of char variale: 1
+	Adress of char variable: 0x7ffdf4e91879
+
+	Size of double variale: 8
+	Adress of double variable: 0x7ffdf4e91880
+
+	Size of short variale: 2
+	Adress of short variable: 0x7ffdf4e9187a
+
+
+Explanation:
+	An auxiliary python code is written to sort the adresses by their ascending order
+	Original dict:
+  		int: 0x7ffdf4e9187c
+  		char: 0x7ffdf4e91879
+  		double: 0x7ffdf4e91880
+  		short: 0x7ffdf4e9187a
+
+	Sorted (ascending by value):
+  		char: 0x7ffdf4e91879
+  		short: 0x7ffdf4e9187a
+  		int: 0x7ffdf4e9187c
+  		double: 0x7ffdf4e91880
+	
+	and the offset between them:
+	[1, 2, 4]
+	
+	As can be noticed the variables are aligned in memory in order of ascending of their
+	type ascending. The offsets between any two is equal to the sieze of the first so no padding
+	is added.

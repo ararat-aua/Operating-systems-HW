@@ -1,0 +1,5 @@
+#pragma pack(n) adds manual alignment with respect to n size.
+In case of no usage the padding is added as it is considered by compiler
+In case of pack(1) the struct is 1-aligned: size = 1+4+8=13
+In case of pack(2) the struct is 2-aligned: size = 1+1+4+8=14
+In case of pack(4) the struct is 4-aligned: size = 1+3+4+8=16
