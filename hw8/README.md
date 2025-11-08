@@ -1,4 +1,4 @@
-github repo link: 
+github repo link: https://github.com/ararat-aua/Operating-systems-HW/tree/main/hw8 
 
 Instructions:
 1) src.txt is the source file of task 1
